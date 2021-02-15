@@ -1,5 +1,5 @@
 <template>
-    <section class="theme-box":class="{'theme-box-show':isShow}">
+    <section class="theme-box" :class="{'theme-box-show':isShow}">
         <div class="theme">
             <div class="theme-title">
                 点击切换主题色
