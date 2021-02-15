@@ -20,18 +20,8 @@
 - 支持切换主题颜色 :sparkles:
 
 ## 安装步骤
-本项目是使用vue-cli脚手架生成的项目，项目代码可以到我的github上clone下来。clone下来之后可进入文件目录
-
-	git clone https://github.com/lin-xin/notepad.git
-	cd notepad
 	npm install
 	npm run dev
-
-	// 如果 node-sass 安装失败，可使用 cnpm 安装
-	npm install cnpm -g --registry=https://registry.npm.taobao.org
-	cnpm -v 			// 查看cnpm版本号确认安装成功
-	cnpm install node-sass -D
-	
 	//安装成功后再看看是否可以正确运行了
 ## 主要难点
 
