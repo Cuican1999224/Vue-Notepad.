@@ -17,7 +17,4 @@
         color: #666;
         border-top: 1px solid #ddd;
     }
-    .footer a{
-        color: #666;
-    }
 </style>
