@@ -27,7 +27,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="(value, index) in notapad">
+                    <tr :key="index.id" v-for="(value, index) in notapad">
                         <td align="center">{{index + 1}}</td>
                         <td>{{value.content}}</td>
                         <td align="center">{{getType(value.type)}}</td>
@@ -153,7 +153,7 @@
             .event-table{
                 width:100%;
                 padding:0;
-                border:{
+                border{
                     left:1px solid #eee;
                     top:1px solid #eee;
                 }
@@ -166,7 +166,7 @@
                     box-sizing: border-box;
                     text-overflow: ellipsis;
                     vertical-align: middle;
-                    border:{
+                    border{
                         right:1px solid #eee;
                         bottom:1px solid #eee;
                     }
@@ -240,7 +240,7 @@
                         width:6px;
                         height:6px;
                         content: '';
-                        border:{
+                        border{
                             right:1px solid #999;
                             bottom: 1px solid #999;
                         }
@@ -282,9 +282,9 @@
                     padding:5px 10px;
                     box-sizing: border-box;
                     border:1px solid #eee;
-                    font:{
+                    font{
                         size:12px;
-                        family: Arial,'Microsoft YaHei';
+                        // family: Arial,'Microsoft YaHei';
                     }
                     color: #999;
                 }

@@ -125,9 +125,9 @@
         text-align: center;
         border-radius: 4px;
         box-sizing: border-box;
-        font:{
+        font{
             size:inherit;
-            family: inherit;
+            // family: inherit;
         }
         cursor: pointer;
     }

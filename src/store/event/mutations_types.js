@@ -21,6 +21,3 @@ export const DELEVENT = 'DELEVENT';
 
 // 编辑事件
 export const EDITEVENT = 'EDITEVENT';
-
-// 导入数据
-export const UPLOADEVENT = 'UPLOADEVENT';
