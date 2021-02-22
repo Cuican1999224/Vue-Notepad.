@@ -1,6 +1,6 @@
 <template>
     <footer class="footer">
-        记录美好生活.
+        记录美好生活
     </footer>
 </template>
 
